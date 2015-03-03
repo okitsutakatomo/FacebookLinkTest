@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032047E61AA5C0AE0075EA81 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032047E51AA5C0AE0075EA81 /* Social.framework */; };
 		03ED29A91AA591E50081EEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED29A81AA591E50081EEB5 /* AppDelegate.swift */; };
 		03ED29AB1AA591E50081EEB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED29AA1AA591E50081EEB5 /* ViewController.swift */; };
 		03ED29AE1AA591E50081EEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03ED29AC1AA591E50081EEB5 /* Main.storyboard */; };
 		03ED29B01AA591E50081EEB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ED29AF1AA591E50081EEB5 /* Images.xcassets */; };
 		03ED29B31AA591E50081EEB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03ED29B11AA591E50081EEB5 /* LaunchScreen.xib */; };
 		03ED29BF1AA591E50081EEB5 /* FacebookLinkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED29BE1AA591E50081EEB5 /* FacebookLinkTestTests.swift */; };
+		6F1BD9FF67B3B45D3D745B4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA0AD930E15B79383C399CA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032047E41AA59C2A0075EA81 /* FacebookLinkTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookLinkTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		032047E51AA5C0AE0075EA81 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		03ED29A31AA591E50081EEB5 /* FacebookLinkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookLinkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ED29A71AA591E50081EEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03ED29A81AA591E50081EEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,9 @@
 		03ED29B81AA591E50081EEB5 /* FacebookLinkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookLinkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ED29BD1AA591E50081EEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03ED29BE1AA591E50081EEB5 /* FacebookLinkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLinkTestTests.swift; sourceTree = "<group>"; };
+		3245849CD80C056583B666FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		52F59BEA50D5A3888F0527F0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA0AD930E15B79383C399CA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032047E61AA5C0AE0075EA81 /* Social.framework in Frameworks */,
+				6F1BD9FF67B3B45D3D745B4D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +71,8 @@
 				03ED29A51AA591E50081EEB5 /* FacebookLinkTest */,
 				03ED29BB1AA591E50081EEB5 /* FacebookLinkTestTests */,
 				03ED29A41AA591E50081EEB5 /* Products */,
+				EAA168F9B25D81408C0806BA /* Pods */,
+				B61C5B1721559EE0457F83EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +94,7 @@
 				03ED29AF1AA591E50081EEB5 /* Images.xcassets */,
 				03ED29B11AA591E50081EEB5 /* LaunchScreen.xib */,
 				03ED29A61AA591E50081EEB5 /* Supporting Files */,
+				032047E41AA59C2A0075EA81 /* FacebookLinkTest-Bridging-Header.h */,
 			);
 			path = FacebookLinkTest;
 			sourceTree = "<group>";
@@ -112,6 +124,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B61C5B1721559EE0457F83EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032047E51AA5C0AE0075EA81 /* Social.framework */,
+				7EA0AD930E15B79383C399CA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAA168F9B25D81408C0806BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52F59BEA50D5A3888F0527F0 /* Pods.debug.xcconfig */,
+				3245849CD80C056583B666FE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03ED29C21AA591E50081EEB5 /* Build configuration list for PBXNativeTarget "FacebookLinkTest" */;
 			buildPhases = (
+				C96A49ABABB022811E67CB83 /* Check Pods Manifest.lock */,
 				03ED299F1AA591E50081EEB5 /* Sources */,
 				03ED29A01AA591E50081EEB5 /* Frameworks */,
 				03ED29A11AA591E50081EEB5 /* Resources */,
+				FB5EA3D8BBDE7BF4581364A6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +239,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C96A49ABABB022811E67CB83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5EA3D8BBDE7BF4581364A6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03ED299F1AA591E50081EEB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -290,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -327,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -336,21 +401,27 @@
 		};
 		03ED29C31AA591E50081EEB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F59BEA50D5A3888F0527F0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FacebookLinkTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookLinkTest/FacebookLinkTest-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		03ED29C41AA591E50081EEB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3245849CD80C056583B666FE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FacebookLinkTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookLinkTest/FacebookLinkTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +478,7 @@
 				03ED29C41AA591E50081EEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03ED29C51AA591E50081EEB5 /* Build configuration list for PBXNativeTarget "FacebookLinkTestTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +487,7 @@
 				03ED29C71AA591E50081EEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
