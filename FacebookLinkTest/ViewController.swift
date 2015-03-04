@@ -79,6 +79,20 @@ class ViewController: UIViewController {
         FBRequestConnection.startWithGraphPath("/me/feed", parameters: params, HTTPMethod: "POST") { (connection, anyObject, error) -> Void in
             println("done")
         }
-    }    
+    }
+    
+    @IBAction func apicallPhoto(sender: AnyObject) {
+        let image = UIImage(named: "manga")
+        let data = UIImagePNGRepresentation(image);
+        
+        var params:[String:AnyObject] = [
+            "source": data!
+        ]
+        
+        FBRequestConnection.startWithGraphPath("/me/photos", parameters: params, HTTPMethod: "POST") { (connection, anyObject, error) -> Void in
+            println("done")
+        }
+    }
+
 
 }
